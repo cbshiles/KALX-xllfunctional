@@ -1,0 +1,27 @@
+  <developerConceptualDocument
+      xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+      xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>This add-in allows you to create first class functions in Excel. Excel
+      is a purely functional language, aside from macros, but there is no native facility
+      for creating functions within Excel other than VBA or the Excel SDK for
+      creating user defined functions using C/C++.
+      </para>
+    </introduction>
+    <section>
+      <title>Theory</title>
+      <content>
+        <para>
+          Let <math>T</math> be a type and <math>
+          f:T<superscript>n</superscript> &#8594; T</math> be a function. Define 
+          <blockQuote>bind:<math>
+          (T<superscript>n</superscript> &#8594; T) &#215; T<superscript>?n</superscript>
+          &#8594; T<superscript>n - ?</superscript>
+        </math>
+          </blockQuote>
+        </para>
+       </content>
+      </section>
+  </developerConceptualDocument>
+
